@@ -9,8 +9,8 @@ A simple URL shortener written in JavaScript.
 
 ## Need a hint?
 
-I have created an example shortened URL in **urls.txt** based on the above setup guide which you can demo below.
+I have created an example shortened URL in **urls.txt** based on the above setup guide.
 
 ## Demo
 
-https://robsd.github.io/js-url-shortener/#example
+https://robsd.github.io/js-url-shortener
