@@ -14,8 +14,10 @@ if (location.hash != '') {
 				}
 			}
 		}
-		message.className = 'alert alert-danger';
-		message.innerHTML = 'URL /#' + alias + ' not found!';
+		setTimeout(function() {
+			message.className = 'alert alert-danger';
+			message.innerHTML = 'URL /#' + alias + ' not found!';
+		}, 1000);
 	}
 	request.send();
 }
