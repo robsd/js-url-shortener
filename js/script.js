@@ -1,4 +1,5 @@
 message = document.getElementById('message');
+example = document.getElementById('example');
 
 if (location.hash != '') {
 	alias = location.hash.split('#')[1];
@@ -19,3 +20,5 @@ if (location.hash != '') {
 	}
 	request.send();
 }
+
+example.innerHTML = '<a href="' + location + '#example" target="_blank">' + location + '#example</a>';
